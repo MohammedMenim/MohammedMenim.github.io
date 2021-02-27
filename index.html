@@ -37,9 +37,12 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3474203398');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3787200503');
       });
     }
+  </script>
+  <script>
+    window.flutterWebRenderer = 'html'; // or 'canvaskit'
   </script>
 
   <script src="main.dart.js" type="application/javascript"></script>
