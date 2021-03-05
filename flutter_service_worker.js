@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "df194c93b01b90caf313f952039141e4",
+  "assets/AssetManifest.json": "d943fb608e57198021e96e1f97142c98",
 "assets/assets/data/stops.txt": "23af4a604d7297b6e4c97ea3f90dce3d",
 "assets/assets/data/stops2.txt": "0b7f2970d2ea40500bd112b1ab3ad6e4",
 "assets/assets/images/bus.png": "74980e99b1708040c6931968cf13b029",
@@ -13,9 +13,8 @@ const RESOURCES = {
 "assets/assets/images/bussKvadrat.png": "0e3ef65165c1bf35b37f485d3bd042b4",
 "assets/assets/images/bussny3.png": "eae7485eeb6dcae47c1edc0911d876cc",
 "assets/assets/images/bussrund2.png": "f17fd8229ff5863f547c4ce4a5cd7ac6",
-"assets/assets/images/BUSSS.png": "5cc638ec40e225d84aa40f96fa6864c0",
+"assets/assets/images/BUSSS.png": "7b6e071874e91dccb66c62439ebcb32a",
 "assets/assets/images/BUSSSS.png": "bb2a21fbb536dbe6b57829181d1ebce1",
-"assets/assets/images/BUSSSSS.png": "8d47dc1bb6a0db5ca3a9af305a2bb53a",
 "assets/assets/images/bussVanstraRund.png": "fc158167b2d286f469db728278d4c283",
 "assets/assets/images/taxi.png": "841220e51a00b9b5fcc476962ccbe928",
 "assets/assets/images/taxiCircle.png": "b0b2147ea89277162d879aeeb619eba6",
@@ -31,9 +30,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "73865403836560c40c122082b73a8448",
-"/": "73865403836560c40c122082b73a8448",
-"main.dart.js": "34adb45f530a961375f4855dc3881f12",
+"index.html": "c1621c687ddd6544ce942229f138ea45",
+"/": "c1621c687ddd6544ce942229f138ea45",
+"main.dart.js": "988e910572d2cf5c4dc2da8b112f9d1a",
 "manifest.json": "c5892224b8638f883387765acbd1da04",
 "version.json": "7d01db3330c0f81fcf135a6d0a07b1f7"
 };
