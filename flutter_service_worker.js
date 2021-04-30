@@ -3,12 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "03e6574577605c3fe7c2c4d751c653ce",
+  "assets/AssetManifest.json": "88b0e825a4ea7792009c69a6e5af16ad",
 "assets/assets/data/stops.txt": "23af4a604d7297b6e4c97ea3f90dce3d",
 "assets/assets/data/stops2.txt": "0b7f2970d2ea40500bd112b1ab3ad6e4",
-"assets/assets/fonts/NotoSans-BoldItalic.ttf": "a1375023bb3f9d55dfc6d58685cd6e69",
-"assets/assets/fonts/NotoSans-Italic.ttf": "afe1714f485b424f221147e1be6cf8ad",
-"assets/assets/fonts/NotoSans-Regular.ttf": "5a87cce84010f7cea085ae218d44a64b",
+"assets/assets/fonts/Roboto-Bold.ttf": "9ece5b48963bbc96309220952cda38aa",
+"assets/assets/fonts/Roboto-Italic.ttf": "465d1affcd03e9c6096f3313a47e0bf5",
+"assets/assets/fonts/Roboto-Regular.ttf": "f36638c2135b71e5a623dca52b611173",
 "assets/assets/images/bus.png": "74980e99b1708040c6931968cf13b029",
 "assets/assets/images/busCircle.png": "48b2e767a427c45d9e45d0f6565a3858",
 "assets/assets/images/expressBus.png": "1bd8c1c956ff2b734d799ca847791cfa",
@@ -31,16 +31,16 @@ const RESOURCES = {
 "assets/assets/images/walk.png": "a52265e6d7c73be384a90e8518903221",
 "assets/assets/images/walk2.png": "ba36735160029512cb0092929c2dcd3b",
 "assets/assets/images/walkCircle.png": "a76b5034109423267742a54d28ba97b2",
-"assets/FontManifest.json": "31e197b7d5ecddd5ce525f0ee9b8ec8d",
+"assets/FontManifest.json": "3883261cf4274c1bf2ed8edb903bc466",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/NOTICES": "3ad914352ee93e321948d818cda5dec0",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "3745dffb61b54cea2d4a867cdc737c91",
-"/": "3745dffb61b54cea2d4a867cdc737c91",
-"main.dart.js": "b41c7fdff9a7e9ee6724717712c02151",
+"index.html": "c41b2e4fa173892b0b385b118a2e3d9a",
+"/": "c41b2e4fa173892b0b385b118a2e3d9a",
+"main.dart.js": "e4491a30dcf770a5fc2c54f20ef09948",
 "manifest.json": "c5892224b8638f883387765acbd1da04",
 "version.json": "7d01db3330c0f81fcf135a6d0a07b1f7"
 };

@@ -78753,7 +78753,7 @@ dI:function(a){a.toString
 return!1},
 gbu:function(){return this.f}}
 F.Lq.prototype={
-N:function(a,b){var s=X.atY(null,"NotoSans",C.jm)
+N:function(a,b){var s=X.atY(null,"Roboto",C.jm)
 return S.ayM(new X.z8(null),H.a([C.xc],t.Ez),H.a([C.JU,C.JT],t._p),s,"Reseplanerare")}}
 E.Jb.prototype={}
 M.tt.prototype={}
@@ -78886,7 +78886,7 @@ p=t._
 return T.bP(H.a([T.cB(H.a([T.bB(T.bP(H.a([new T.aP(C.aw,K.axR(s,"Datum","yyyy-MM-dd",new P.au(r,!1),L.i_(C.zI,n),new P.au(q,!1),new P.hj("sv",n),new F.amQ(m,o),n,C.iw),n),new T.aP(C.aw,K.axR(o.db,n,n,n,L.i_(C.lW,n),n,new P.hj("sv",n),new F.amR(m,o),"Tid",C.cD),n)],p),C.z,C.v,C.r),1),new T.aP(C.bU,D.HZ(new T.aP(C.aw,C.a_P,n),new F.amS(m,o),D.a0E(n,n,n,n,n,n,n,n,n,n,C.p,n,n,new Y.cw(C.E,1,C.a1),n,n,n,n)),n)],p),C.z,C.v,C.r,n),T.cB(H.a([T.bB(new T.aP(C.aw,D.HZ(new T.aP(C.aw,C.a_U,n),new F.amT(o),D.a0E(n,n,n,n,n,n,n,n,n,n,C.p,n,n,new Y.cw(C.E,1,C.a1),n,n,n,n)),n),1),T.bB(new T.aP(C.aw,D.HZ(new T.aP(C.aw,C.a_V,n),new F.amU(m,o),D.a0E(n,n,n,n,n,n,n,n,n,n,C.Rn,n,n,n,n,n,n,n)),n),1)],p),C.z,C.v,C.r,n)],p),C.z,C.tf,C.r)},
 N:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null
 d.oG()
-s=X.atY(c,"NotoSans",c)
+s=X.atY(c,"Roboto",c)
 r=E.Y9(!0,C.p,B.kT(c,L.i_(C.fe,new P.G(4284572001)),new F.amH(b),c),C.a_S)
 q=d.a
 p=q.d
