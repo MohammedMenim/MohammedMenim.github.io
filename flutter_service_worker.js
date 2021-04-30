@@ -3,32 +3,44 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "dba6c24bc967d0e927e07385738d0e86",
+  "assets/AssetManifest.json": "03e6574577605c3fe7c2c4d751c653ce",
 "assets/assets/data/stops.txt": "23af4a604d7297b6e4c97ea3f90dce3d",
 "assets/assets/data/stops2.txt": "0b7f2970d2ea40500bd112b1ab3ad6e4",
+"assets/assets/fonts/NotoSans-BoldItalic.ttf": "a1375023bb3f9d55dfc6d58685cd6e69",
+"assets/assets/fonts/NotoSans-Italic.ttf": "afe1714f485b424f221147e1be6cf8ad",
+"assets/assets/fonts/NotoSans-Regular.ttf": "5a87cce84010f7cea085ae218d44a64b",
 "assets/assets/images/bus.png": "74980e99b1708040c6931968cf13b029",
 "assets/assets/images/busCircle.png": "48b2e767a427c45d9e45d0f6565a3858",
+"assets/assets/images/expressBus.png": "1bd8c1c956ff2b734d799ca847791cfa",
+"assets/assets/images/expressBusCircle.png": "72a6db60841655282f13292e5dd1b403",
+"assets/assets/images/ferry.png": "c7e0068c3e407d081455dfbcba48bac7",
+"assets/assets/images/ferryCircle.png": "584b51f64ee71dc76d1a193f5806ea3d",
 "assets/assets/images/nighttrain.png": "4dcb5f0a5caa210dd0d98606e9f54d6d",
 "assets/assets/images/nighttrainCircle.png": "6ba6a9ae68a8de71bab1cc52cb4d5176",
+"assets/assets/images/oresundTrain.png": "21c9c12ead858075f422db7c6fbb1410",
+"assets/assets/images/oresundTrainCircle.png": "6639280d58da6ccfa2c7688c287e37cd",
+"assets/assets/images/regionBus.png": "6b1aa51df63b251996b32e65ffb11c4e",
+"assets/assets/images/regionBusCircle.png": "f792652e3df2fd1ab30ae3d2421d23e9",
 "assets/assets/images/taxi.png": "841220e51a00b9b5fcc476962ccbe928",
 "assets/assets/images/taxiCircle.png": "b0b2147ea89277162d879aeeb619eba6",
 "assets/assets/images/train.png": "a6104e1c9cf429fd03293001a95fa00b",
 "assets/assets/images/trainBase.png": "a3e3f7b24e83a4ad83bfcbb51a605d90",
 "assets/assets/images/trainCircle.png": "d26c0100870b69d84e5017caee298326",
+"assets/assets/images/tram.png": "9b3099ed29b5ce364d26e679be9ce405",
 "assets/assets/images/wait.png": "4b305712c0dba3a8b3f6294ae7b3f0f1",
 "assets/assets/images/walk.png": "a52265e6d7c73be384a90e8518903221",
 "assets/assets/images/walk2.png": "ba36735160029512cb0092929c2dcd3b",
 "assets/assets/images/walkCircle.png": "a76b5034109423267742a54d28ba97b2",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "f2b954b79dfba8d96f772b63a127abd0",
+"assets/FontManifest.json": "31e197b7d5ecddd5ce525f0ee9b8ec8d",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "3ad914352ee93e321948d818cda5dec0",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "1ad825489391f527a994f5d989b45028",
-"/": "1ad825489391f527a994f5d989b45028",
-"main.dart.js": "402d817d25f9e94f923296a4fbc90743",
+"index.html": "3745dffb61b54cea2d4a867cdc737c91",
+"/": "3745dffb61b54cea2d4a867cdc737c91",
+"main.dart.js": "b41c7fdff9a7e9ee6724717712c02151",
 "manifest.json": "c5892224b8638f883387765acbd1da04",
 "version.json": "7d01db3330c0f81fcf135a6d0a07b1f7"
 };
@@ -48,7 +60,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
