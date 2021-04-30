@@ -79225,7 +79225,7 @@ tM:function(a){return this.aih(a)},
 aih:function(a){var s=0,r=P.Q(t.AO),q,p=this,o,n,m,l,k
 var $async$tM=P.L(function(b,c){if(b===1)return P.N(c,r)
 while(true)switch(s){case 0:s=3
-return P.a2(G.auU("https://api.resrobot.se/v2/location.name?key=ab48a089-a201-461f-a835-8a8e6c03f223&input="+a+"?&format=json").hB(new U.afk()),$async$tM)
+return P.a2(G.auU("https://api.resrobot.se/v2/location.name?key=6a8b420a-fbb8-413b-a1bc-d475120f11e1&input="+a+"?&format=json").hB(new U.afk()),$async$tM)
 case 3:k=c
 if((k==null?null:k.b)===200){o=C.bs.dS(0,B.auT(U.auv(k.e).c.a.h(0,"charset")).dS(0,k.x))
 for(n=J.ai(o),m=p.f,l=0;l<J.bj(n.h(o,"StopLocation"));++l)m.push(new O.h2(J.k(J.k(n.h(o,"StopLocation"),l),"id"),J.k(J.k(n.h(o,"StopLocation"),l),"name"),J.k(J.k(n.h(o,"StopLocation"),l),"lon"),J.k(J.k(n.h(o,"StopLocation"),l),"lat")))}else throw H.b(P.eA("Failed to fetchLocations"))
@@ -79238,7 +79238,7 @@ tL:function(a){return this.aif(a)},
 aif:function(a){var s=0,r=P.Q(t.yF),q,p,o,n,m,l
 var $async$tL=P.L(function(b,c){if(b===1)return P.N(c,r)
 while(true)switch(s){case 0:s=3
-return P.a2(G.auU("https://api.resrobot.se/v2/location.nearbystops?key=ab48a089-a201-461f-a835-8a8e6c03f223&originCoordLat="+H.d(a.d)+"&originCoordLong="+H.d(a.c)+"&format=json").hB(new U.afi()),$async$tL)
+return P.a2(G.auU("https://api.resrobot.se/v2/location.nearbystops?key=6a8b420a-fbb8-413b-a1bc-d475120f11e1&originCoordLat="+H.d(a.d)+"&originCoordLong="+H.d(a.c)+"&format=json").hB(new U.afi()),$async$tL)
 case 3:m=c
 l=new O.h2(null,null,null,null)
 if((m==null?null:m.b)===200){p=C.bs.dS(0,B.auT(U.auv(m.e).c.a.h(0,"charset")).dS(0,m.x))
@@ -79253,7 +79253,7 @@ y4:function(a,b,c,d,e,f,g,h,i){return this.aig(a,b,c,d,e,f,g,h,i)},
 aig:function(a3,a4,a5,a6,a7,a8,a9,b0,b1){var s=0,r=P.Q(t.jS),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2
 var $async$y4=P.L(function(b2,b3){if(b2===1)return P.N(b3,r)
 while(true)switch(s){case 0:s=3
-return P.a2(G.auU(a9?"https://api.resrobot.se/v2/trip?key=ab48a089-a201-461f-a835-8a8e6c03f223&destId="+H.d(a6.a)+"&time="+b1+"&date="+a5+"&originCoordLat="+a7+"&originCoordLong="+a8+"&context="+H.d(a4)+"&format=json":"https://api.resrobot.se/v2/trip?key=ab48a089-a201-461f-a835-8a8e6c03f223&originId="+H.d(b0.a)+"&destId="+H.d(a6.a)+"&time="+b1+"&date="+a5+"&context="+H.d(a4)+"&format=json").hB(new U.afj()),$async$y4)
+return P.a2(G.auU(a9?"https://api.resrobot.se/v2/trip?key=6a8b420a-fbb8-413b-a1bc-d475120f11e1&destId="+H.d(a6.a)+"&time="+b1+"&date="+a5+"&originCoordLat="+a7+"&originCoordLong="+a8+"&context="+H.d(a4)+"&format=json":"https://api.resrobot.se/v2/trip?key=6a8b420a-fbb8-413b-a1bc-d475120f11e1&originId="+H.d(b0.a)+"&destId="+H.d(a6.a)+"&time="+b1+"&date="+a5+"&context="+H.d(a4)+"&format=json").hB(new U.afj()),$async$y4)
 case 3:a2=b3
 if((a2==null?null:a2.b)===200){o=C.bs.dS(0,B.auT(U.auv(a2.e).c.a.h(0,"charset")).dS(0,a2.x))
 for(n=J.ai(o),m=p.x,l=t.tr,k=0;k<J.bj(n.h(o,"Trip"));++k){j=H.a([],l)
